@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-mu-heatmap",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -18,6 +18,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "bower": "^1.7.9",
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",
     "ember-cli": "2.6.2",
@@ -34,16 +35,22 @@
     "ember-data": "^2.6.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
+    "ember-leaflet": "2.2.7",
+    "ember-leaflet-heatmap": "0.0.3",
     "ember-load-initializers": "^0.5.1",
+    "ember-promise-helpers": "1.0.2",
     "ember-resolver": "^2.0.3",
     "ember-welcome-page": "^1.0.1",
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "heatmap",
+    "mu"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-htmlbars": "^1.0.3"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
