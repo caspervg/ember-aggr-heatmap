@@ -1,0 +1,22 @@
+{{#leaflet-map lat=latitude lng=longitude zoom=zoom}}
+
+  {{yield}}
+
+  {{#unless waitingUpdates}}
+    {{heatmap-layer data=data
+                    backgroundColor=backgroundColor
+                    blur=blur
+                    gradient=gradient
+                    maxOpacity=maxOpacity
+                    opacity=opacity
+                    minOpacity=minOpacity
+                    scaleRadius=scaleRadius
+                    radius=radius
+                    useLocalExtrema=useLocalExtrema
+                    latField='lat'
+                    lngField='lng'
+                    valueField='value'
+    }}
+  {{/unless}}
+
+{{/leaflet-map}}
