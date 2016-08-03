@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-mu-heatmap",
-  "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.9.0",
+  "description": "Heatmap addon for mu-semtech measurements",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -38,6 +38,7 @@
     "ember-leaflet": "2.2.7",
     "ember-leaflet-heatmap": "0.0.3",
     "ember-load-initializers": "^0.5.1",
+    "ember-lodash": "0.0.10",
     "ember-promise-helpers": "1.0.2",
     "ember-resolver": "^2.0.3",
     "ember-welcome-page": "^1.0.1",
