@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-mu-heatmap'
+  name: 'ember-aggr-heatmap'
 };
