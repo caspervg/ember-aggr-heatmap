@@ -1,26 +1,15 @@
-# Ember-cli-mu-heatmap
+# aggr-heatmap
 
-This README outlines the details of collaborating on this Ember addon.
+## Description
+Ember (2.5+) addon/component that makes it easy to display heatmaps from the Aggr JSON API.
 
-## Installation
+Implemented by Casper Van Gheluwe (UGent) during the summer of 2016, as part of an internship at TenForce.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+## Usage
+```handlebars
+{{#mu-heatmap dataset=your_dataset_here latitude=lat longitude=lon zoom=zoom
+                                  opacity=opacity radius=radius scaleRadius=scaleRadius useLocalExtrema=localExtrema
+                                  blur=blur}}
+    {{tile-layer url="http://a.tile.openstreetmap.org/{z}/{x}/{y}.png"}}
+{{/mu-heatmap}}
+```
