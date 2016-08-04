@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import layout from '../templates/components/mu-heatmap';
+import layout from '../templates/components/aggr-heatmap';
 
 export default Ember.Component.extend({
   layout,

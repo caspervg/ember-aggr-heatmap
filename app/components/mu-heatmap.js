@@ -1,1 +1,0 @@
-export { default } from 'ember-cli-mu-heatmap/components/mu-heatmap';

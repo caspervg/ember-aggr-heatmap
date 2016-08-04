@@ -47,7 +47,7 @@
   "keywords": [
     "ember-addon",
     "heatmap",
-    "mu"
+    "aggr"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6",
